@@ -4,8 +4,7 @@ email:
 description: "Deep Learning Blog"
 baseurl: ""
 url: "http://prprbr.github.io"
-twitter_username: karpathy
-github_username:  karpathy
+github_username:  prprbr
 
 # Build settings
 markdown: kramdown
