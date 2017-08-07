@@ -5,6 +5,7 @@ description: "Deep Learning Blog"
 baseurl: ""
 url: "http://prprbr.github.io"
 github_username:  prprbr
+linkedin_username: pratik-prabhanjan-brahma-065b7631
 
 # Build settings
 markdown: kramdown
