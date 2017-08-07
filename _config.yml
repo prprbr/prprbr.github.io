@@ -1,0 +1,18 @@
+# Site settings
+title: Pratik Brahma blog
+email: 
+description: "Deep Learning Blog"
+baseurl: ""
+url: "http://prprbr.github.io"
+twitter_username: karpathy
+github_username:  karpathy
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
