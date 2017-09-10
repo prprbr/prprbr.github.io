@@ -9,4 +9,7 @@ About 5000 people with shared interest in computer vision and machine learning f
 
 <img src="/assets/cvpr/honolulu.JPG" width="50%" height="50%" align="middle" />
 
+### Day 1
+
+
 
