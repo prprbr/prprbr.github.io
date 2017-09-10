@@ -37,3 +37,4 @@ in a mutually reinforced manner. In this perspective, the inputs to their model 
 <img src="/assets/cvpr/racnn.jpg" width="90%" height="90%" />
 
 
+### Day 6 (Final workshops and tutorials) 
