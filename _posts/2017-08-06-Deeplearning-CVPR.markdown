@@ -31,4 +31,6 @@ Another best paper winner was that from Facebook AI research. The idea is as sim
 <a href="https://cloud.githubusercontent.com/assets/8370623/17981494/f838717a-6ad1-11e6-9391-f0906c80bc1d.jpg"><img src="https://cloud.githubusercontent.com/assets/8370623/17981494/f838717a-6ad1-11e6-9391-f0906c80bc1d.jpg" title="source: DenseNet by Facebook AI Research" width="50%" height="50%"  /></a>
 Their paper on [Densely Connected Convolutional Networks](https://arxiv.org/pdf/1608.06993.pdf) showed how they could beat the performance of ResNet by a margin with such dense connections.
 
-
+There was another interesting idea on improving fine graned image classification between images that looks very similar to each other. The idea was to recursively learns discriminative
+region attention and region-based feature representation
+in a mutually reinforced manner. In this perspective, the inputs to their model called [RA-CNN](http://openaccess.thecvf.com/content_cvpr_2017/papers/Fu_Look_Closer_to_CVPR_2017_paper.pdf) varies from coarse full scale image to finer zoomed in region attention. 
