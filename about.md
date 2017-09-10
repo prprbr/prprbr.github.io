@@ -6,4 +6,4 @@ permalink: /about/
 
 I am **Pratik Brahma**
 
-<img src="/assets/pic.JPG" width="100%" />
+<img src="/assets/pic.JPG"  />
