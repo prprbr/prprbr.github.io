@@ -34,3 +34,5 @@ Their paper on [Densely Connected Convolutional Networks](https://arxiv.org/pdf/
 There was another interesting idea on improving fine graned image classification between images that looks very similar to each other. The idea was to recursively learns discriminative
 region attention and region-based feature representation
 in a mutually reinforced manner. In this perspective, the inputs to their model called [RA-CNN](http://openaccess.thecvf.com/content_cvpr_2017/papers/Fu_Look_Closer_to_CVPR_2017_paper.pdf) varies from coarse full scale image to finer zoomed in region attention. 
+<img src="/assets/cvpr/racnn.jpg" width="90%" height="90%" />
+
