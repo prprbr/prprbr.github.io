@@ -16,5 +16,11 @@ The main conference started its program on July 22. However, there were some rea
 
 ### Day 2 - 5 (Main Conference)
 
+A lot of prior research has gone into improving the image recognition using more than just the image RGB data. On similar lines, a CVPR paper from Ruslan Salakhutdinov's group used [knowledge graph for image classification](https://arxiv.org/pdf/1612.04844.pdf). Semantic knowledge was borrowed from The [Visual Genome](http://visualgenome.org/). 
+
+Neural networks usually are memory consuming and too big to be implemented on low end embedded devices, for e.g. a mobile phone chipset. Thus, there is a need to compress these models without loss of performance. A paper on such [deep compression](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yu_On_Compressing_Deep_CVPR_2017_paper.pdf) showed how an VGG 16 model trained on IMAGENET that contains about 138 million weights could be compressed to just 9.7 million without any difference in inference accuracy.
+
+There were a lot of papers on domain adaptation (effort to transfer knowledge from one domain to another). Folks from Google presented [Unsupervised Pixel-Level Domain Adaptation with GANs](https://arxiv.org/pdf/1612.05424.pdf) where they showed how they translate images from MNIST grayscale images to color background and so on. It was interesting to note that there were several papers on the very same line, i.e. using GANs to convert an image from one style to another. In fact, Apple published its first ever research paper and it was attacking the very same problem.
+<a href="https://machinelearning.apple.com/images/journals/gan/block_diag_gif.gif"><img src="https://machinelearning.apple.com/images/journals/gan/block_diag_gif.gif" title="source: Apple's machine learning journal" /></a>
 
 
