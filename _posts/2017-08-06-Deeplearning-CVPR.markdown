@@ -23,7 +23,7 @@ Neural networks usually are memory consuming and too big to be implemented on lo
 There were a lot of papers on domain adaptation (effort to transfer knowledge from one domain to another). Folks from Google presented [Unsupervised Pixel-Level Domain Adaptation with GANs](https://arxiv.org/pdf/1612.05424.pdf) where they showed how they translate images from MNIST grayscale images to color background and so on. It was interesting to note that there were several papers on the very same line, i.e. using GANs to convert an image from one style to another. In fact, Apple published its first ever research paper and it was attacking the very same problem. [That paper](https://arxiv.org/pdf/1612.07828.pdf) got them the best CVPR paper award too ;) .
 <a href="https://machinelearning.apple.com/images/journals/gan/block_diag_gif.gif"><img src="https://machinelearning.apple.com/images/journals/gan/block_diag_gif.gif" title="source: Apple's machine learning journal" /></a>
 
-GANs also found use in generating super resolution images, i.e. increasing or zooming the resolution of small images without degradation in semantic content. [SrGAN](https://arxiv.org/pdf/1609.04802.pdf), developed by a team from Twitter, showed 4x zooms of images which were way better than just zooming using bicubic interpolation. 
+GANs also found use in generating super resolution images, i.e. increasing or zooming the resolution of small images without degradation in semantic content. [Hallucinating low resolution images](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yu_Hallucinating_Very_Low-Resolution_CVPR_2017_paper.pdf) is a technique that can super-resolve tiny 16x16 images upto a zoom up scale of 8x to look realistic. Similarly, [SrGAN](https://arxiv.org/pdf/1609.04802.pdf), developed by a team from Twitter, showed 4x zooms of images which were way better than just zooming using bicubic interpolation. 
 
 If you might have noticed, most of the deep learning networks have an architecture that is fixed and only the weights change during training. However, the necessary structure to learn something is unknown and to address this, an [interpretable structure evolving LSTM](https://arxiv.org/pdf/1703.03055.pdf) was proposed in this conference where the graph architecture changes over training time.
 
@@ -33,6 +33,7 @@ Their paper on [Densely Connected Convolutional Networks](https://arxiv.org/pdf/
 
 There was another interesting idea on improving fine graned image classification between images that looks very similar to each other. The idea was to recursively learns discriminative
 region attention and region-based feature representation
-in a mutually reinforced manner. In this perspective, the inputs to their model called [RA-CNN](http://openaccess.thecvf.com/content_cvpr_2017/papers/Fu_Look_Closer_to_CVPR_2017_paper.pdf) varies from coarse full scale image to finer zoomed in region attention. 
+in a mutually reinforced manner. In this perspective, the inputs to their model called [RA-CNN](http://openaccess.thecvf.com/content_cvpr_2017/papers/Fu_Look_Closer_to_CVPR_2017_paper.pdf) varies from coarse full scale image to finer zoomed in region attention. Btw, Micorosoft Research Flower app uses this technology. 
 <img src="/assets/cvpr/racnn.jpg" width="90%" height="90%" />
+
 
