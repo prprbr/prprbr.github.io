@@ -7,5 +7,5 @@ date:   2017-08-06
 
 hii
 
-<img src="/assets/cvpr/honolulu.JPG"  />
+<img src="/assets/cvpr/honolulu.JPG" style="width: 200px;" />
 
