@@ -23,4 +23,11 @@ Neural networks usually are memory consuming and too big to be implemented on lo
 There were a lot of papers on domain adaptation (effort to transfer knowledge from one domain to another). Folks from Google presented [Unsupervised Pixel-Level Domain Adaptation with GANs](https://arxiv.org/pdf/1612.05424.pdf) where they showed how they translate images from MNIST grayscale images to color background and so on. It was interesting to note that there were several papers on the very same line, i.e. using GANs to convert an image from one style to another. In fact, Apple published its first ever research paper and it was attacking the very same problem. [That paper](https://arxiv.org/pdf/1612.07828.pdf) got them the best CVPR paper award too ;) .
 <a href="https://machinelearning.apple.com/images/journals/gan/block_diag_gif.gif"><img src="https://machinelearning.apple.com/images/journals/gan/block_diag_gif.gif" title="source: Apple's machine learning journal" /></a>
 
+GANs also found use in generating super resolution images, i.e. increasing or zooming the resolution of small images without degradation in semantic content. [SrGAN](https://arxiv.org/pdf/1609.04802.pdf), developed by a team from Twitter, showed 4x zooms of images which were way better than just zooming using bicubic interpolation. 
+
+If you might have noticed, most of the deep learning networks have an architecture that is fixed and only the weights change during training. However, the necessary structure to learn something is unknown and to address this, an [interpretable structure evolving LSTM](https://arxiv.org/pdf/1703.03055.pdf) was proposed in this conference where the graph architecture changes over training time.
+
+Another best paper winner was that from Facebook AI research. The idea is as simple as it gets - connect each layer with every other layer. Their paper on 
+<a href="https://cloud.githubusercontent.com/assets/8370623/17981494/f838717a-6ad1-11e6-9391-f0906c80bc1d.jpg"><img src="https://cloud.githubusercontent.com/assets/8370623/17981494/f838717a-6ad1-11e6-9391-f0906c80bc1d.jpg" title="source: DenseNet by Facebook AI Research" /></a>
+
 
