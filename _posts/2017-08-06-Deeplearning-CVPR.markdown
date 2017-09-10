@@ -6,3 +6,6 @@ date:   2017-08-06
 ---
 
 hii
+
+<img src="/assets/cvpr/honolulu.JPG"  />
+
