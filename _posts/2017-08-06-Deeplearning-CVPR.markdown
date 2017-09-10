@@ -28,7 +28,7 @@ GANs also found use in generating super resolution images, i.e. increasing or zo
 If you might have noticed, most of the deep learning networks have an architecture that is fixed and only the weights change during training. However, the necessary structure to learn something is unknown and to address this, an [interpretable structure evolving LSTM](https://arxiv.org/pdf/1703.03055.pdf) was proposed in this conference where the graph architecture changes over training time.
 
 Another best paper winner was that from Facebook AI research. The idea is as simple as it gets - connect each layer with every other layer. 
-Their paper on [Densely Connected Convolutional Networks](https://arxiv.org/pdf/1608.06993.pdf) showed how they could beat the performance of ResNet by a margin with such dense connections.
 <a href="https://cloud.githubusercontent.com/assets/8370623/17981494/f838717a-6ad1-11e6-9391-f0906c80bc1d.jpg"><img src="https://cloud.githubusercontent.com/assets/8370623/17981494/f838717a-6ad1-11e6-9391-f0906c80bc1d.jpg" title="source: DenseNet by Facebook AI Research" width="50%" height="50%"  /></a>
+Their paper on [Densely Connected Convolutional Networks](https://arxiv.org/pdf/1608.06993.pdf) showed how they could beat the performance of ResNet by a margin with such dense connections.
 
 
