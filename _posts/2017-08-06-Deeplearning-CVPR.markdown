@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Deeplearning-CVPR"
+title:  "What I saw at CVPR 2017"
 date:   2017-08-06
 ---
 
