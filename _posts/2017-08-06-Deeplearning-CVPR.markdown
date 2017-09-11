@@ -47,3 +47,8 @@ Raia Hadsell from DeepMind gave a nice talk on catastrophic forgetting and its m
 
 ### Key Takeaways
 
+I can see the amazing results in some of the papers presented at CVPR on semantic segmentation and that too at a very high accuracy. One can always plug and play one of the existing architectures like Mask R-CNN etc if you want to segment your scene input for some purpose. However, it has to be wholly retrained to your own dataset because the models fail when you employ it in a different domain. Trevor Darrell pointed out this problem of using a neural network trained with CityScapes (Germany) dataset fails considerably on San Francisco roads.
+
+The age of the Generative Adversarial Nets or GANs has begun and the bang is so huge that is bringing all major tech giants to do research and applied development in this area. As per current trends, we are due for some more interesting results at NIPS later this year.
+
+A lot of the problems in vision is now being solved in an end to end approach, which is good in a sense that you are pretty much mapping raw input to desired output and provide your customers with a prepared black box style model but its explainability remains a challenge. 
