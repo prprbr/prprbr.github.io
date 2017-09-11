@@ -42,3 +42,8 @@ in a mutually reinforced manner. In this perspective, the inputs to their model 
 This was actually my most interesting day of the entire event. A very beautifully designed [tutorial](https://github.com/mingyuliutw/cvpr2017_gan_tutorial) covering the theory and applications of GANs was given by Ming-Yu Liu from NVIDIA. I strongly urge the readers to have a look. Btw, NVIDIA also have their own results on domain adaptation using GANs, just like Google and Apple. Here is their [Unsupervised Image to Image Translation Networks](https://arxiv.org/pdf/1703.00848.pdf) performing domain translation between foggy images and sunny images.
 
 <a href="https://github.com/mingyuliutw/UNIT/blob/master/docs/Fog2Summer_SEQS-02-Stereo_Left-Omni_B.gif"><img src="https://github.com/mingyuliutw/UNIT/blob/master/docs/Fog2Summer_SEQS-02-Stereo_Left-Omni_B.gif" title="source: UINT by NVIDIA research"  /></a>
+
+Raia Hadsell from DeepMind gave a nice talk on catastrophic forgetting and its mitigation techniques for neural networks. There was quite a healthy discussion in the workshop on continual and open set learning. 
+
+### Key Takeaways
+
