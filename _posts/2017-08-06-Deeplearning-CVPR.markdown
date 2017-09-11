@@ -39,7 +39,7 @@ in a mutually reinforced manner. In this perspective, the inputs to their model 
 
 ### Day 6 (Final workshops and tutorials) 
 
-This was actually my most interesting day of the entire event. A very beautifully designed [tutorial](https://github.com/mingyuliutw/cvpr2017_gan_tutorial) covering the theory and applications of GANs was given by Ming-Yu Liu from NVIDIA. I strongly urge the readers to have a look. Btw, NVIDIA also have their own results on domain adaptation using GANs, just like Google and Apple. Here is their [Unsupervised Image to Image Translation Networks](https://arxiv.org/pdf/1703.00848.pdf) performing domain translation between foggy images and sunny images.
+This was actually my most interesting day of the entire event. A very beautifully designed [tutorial](https://github.com/mingyuliutw/cvpr2017_gan_tutorial) covering the theory and applications of GANs was given by Ming-Yu Liu from NVIDIA. I strongly urge the readers to have a look. Btw, NVIDIA also have their own results on domain adaptation using GANs, just like Google and Apple. Here is their [Unsupervised Image to Image Translation Networks](https://arxiv.org/pdf/1703.00848.pdf) performing domain translation from sunny day time images to night time images.
 
 <img src="/assets/cvpr/UINT.jpg" width="70%" height="70%" title="source:Unsup Image-to-image translation by Ming Yu Liu" />
 
@@ -53,3 +53,5 @@ I can see the amazing results in some of the papers presented at CVPR on semanti
 The age of the Generative Adversarial Nets or GANs has begun and the bang is so huge that is bringing all major tech giants to do research and applied development in this area. As per current trends, we are due for some more interesting results at NIPS later this year.
 
 A lot of the problems in vision is now being solved in an end to end approach, which is good in a sense that you are pretty much mapping raw input to desired output and provide your customers with a prepared black box style model but its explainability remains a challenge. 
+
+My PhD advisor always used to point out a common old saying of [blind men trying to figure out an elephant](https://en.wikipedia.org/wiki/Blind_men_and_an_elephant). Given the plethora of knowledge and work done in this field, almost everyone including me is just a partially blind person and thus all that I pointed out in this blog was what I perceived as interesting. It will and should vary if you take any other attendee into account. Hope you enjoyed reading this blog post. Do drop by your comments below. 
