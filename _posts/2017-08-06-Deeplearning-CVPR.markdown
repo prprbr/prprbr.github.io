@@ -44,7 +44,7 @@ This was actually my most interesting day of the entire event. A very beautifull
 <img src="/assets/cvpr/UINT.jpg" width="70%" height="70%" title="source:Unsup Image-to-image translation by Ming Yu Liu" />
 
 
-Raia Hadsell from DeepMind gave a nice talk on catastrophic forgetting and its mitigation techniques for neural networks. There was quite a healthy discussion in the workshop on continual and open set learning. 
+Raia Hadsell (from DeepMind) gave a nice talk on catastrophic forgetting and its mitigation techniques for neural networks. There was quite a healthy discussion in the workshop on continual and open set learning. 
 
 ### Key Takeaways
 
